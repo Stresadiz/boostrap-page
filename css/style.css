@@ -1,0 +1,18 @@
+﻿.navbar-bg-original {
+    background: rgb(16 105 216 / 98%);
+}
+.img-size-carrousel{
+    height:30em;
+    width:100%;
+}
+.footer {
+    background-color: #0e2a47;
+    margin:0px;
+    margin-right:0;
+}
+.col-footer-img{
+    padding:1em;
+}
+#empresas{
+    justify-items:center;
+}
