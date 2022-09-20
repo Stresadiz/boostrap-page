@@ -3,17 +3,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Moon Travel - Consultas</title>
+    <!--
+        Importamos boostrap, animate css y hoja de estilos personal    
+    -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
     <!--
-            INICIO DEL NAV
+            Inicio del nav
     -->
     <nav class="navbar navbar-bg-original">
         <div class="container-fluid">
+            <!--
+                Titulo y logo    
+            -->
             <a class="navbar-brand navbar-brand-txt" href="#">
                 <img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 Moon Travel
@@ -21,6 +27,9 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--
+                Offcanvas    
+            -->
             <div class="offcanvas offcanvas-end offcanvas-bg" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Moon Travel</h5>
@@ -63,7 +72,7 @@
     </nav>
 
     <!--
-            INICIO DEL MAIN
+            Inicio del main content
     -->
     <div class="container">
         <h1 class="display-4 text-center text-spacing">Consultas</h1>
@@ -87,7 +96,9 @@
                     </nav>
                 </nav>
             </div>
-
+            <!--
+                Preguntas frecuentes display    
+            -->
             <div class="col-8 animate__animated animate__fadeIn fadeInUp__element">
                 <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
                     <div id="item-1">
@@ -125,7 +136,7 @@
         </div>
     </div>
     <!--
-            INICIO DEL FOOTER
+            Inicio del footer
     -->
     <div class="container-fluid" style="background: #0e2a47;">
         <div class="row container footer-container">
@@ -207,12 +218,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div> -->
+                </div> -->
+            </div>
             <div class="container footer-bootom">
                 <p>© Moon Travel by <a class="footer-link" href="github.com/Stresadiz">Sebastian Luna</a>.</p>
             </div>
         </div>
+        <!--
+            Import de bootstrap en el HTML    
+        -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
